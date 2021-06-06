@@ -124,9 +124,6 @@ export default {
       newToDo: '',
       Filter: 'all',
       Mode: 'dark',
-      oldIndex: '',
-      newIndex: '',
-      pickedUp: false
     }
   },
   methods:{
@@ -147,16 +144,7 @@ export default {
         }
       }
     },
-    onEnd(evt){
-      console.log(evt)
-      this.oldIndex = evt.oldIndex;
-      this.newIndex = evt.newIndex;
-    },
-    drag(index){
-      let doc = document.getElementById(index);
-      doc.style.position = "absolute";
-      this.pickedUp = true;
-    },
+
 
     computed:{
       countActive(){
