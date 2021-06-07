@@ -474,6 +474,7 @@ span.LightCircle:hover{
 
 .moibleFilterTop{
   max-width: 325px;
+  max-height: 50px;
   margin-left: -2%;
   color: gray;
   width: 100%;
