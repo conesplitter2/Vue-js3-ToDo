@@ -324,7 +324,7 @@ export default {
       background: url("./assets/images/bg-desktop-light.jpg");
       background-repeat: no-repeat;
       background-size: 100%;
-      background-color: white;
+      background-color: #fafafa;
 
 }
 .Header{
